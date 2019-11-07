@@ -30,7 +30,7 @@ vSpotifyObj = spotipy.Spotify(auth=vToken)
 
 # print(json.dumps(VARIABLE, sort_keys=True, indent=4))
 
-vBeatlesURI = 'spotify:artist:2WX2uTcsvV5OnS0inACecP'
+vBeatlesURI = 'spotify:artist:3WrFJ7ztbogyGnTHbHJFl2'
 
 vResults = vSpotifyObj.artist_albums(vBeatlesURI, album_type='album')
 vAlbums = vResults['items']
